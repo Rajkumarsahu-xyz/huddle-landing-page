@@ -556,9 +556,68 @@ footer {
     footer {
         width: 23.4375rem;
         height: 49.0625rem;
-        margin:  1rem;
+        padding: 8rem 1rem 3rem 1rem;
     }
     .footer-container {
+        width: 21.4375rem;
         flex-direction: column;
+        gap: 1.5rem;
+        align-items: flex-start;
+    }
+
+    .huddle-info {
+        margin-bottom: 1.06rem;
+        width: 21.4375rem;
+    }
+
+    .location-container {
+        width: 21.4375rem;
+    }
+
+    .location-container > img, .call-container > img, .gmail-container > img {
+        width: 1.5rem;
+        height: 1.5rem;
+    }
+    .location-container > p {
+        height: 4.5rem;
+        width: 18.625rem;
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+    }
+    .call-container > p {
+        width: 6.875rem;
+        height: 1.5rem;
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+    }
+    .gmail-container > p {
+        width: 9rem;
+        height: 1.5rem;
+        font-size: 0.875rem;
+        line-height: 1.5rem;
+    }
+
+    .footer-links {
+        width: 5.125rem;
+        height: 15.125rem;
+        gap: 1rem;
+    }
+    .social-media-container {
+        align-self: flex-start;
+        width: 21.4375rem;
+        height: 4.5rem;
+        gap: 1.5rem;
+        text-align: center;
+    }
+
+    .social-media-imgs {
+        margin: auto;
+        gap: 0.78rem;
+    }
+
+    .facebook-img-container, .twitter-img-container, .insta-img-container {
+        width: 1.9515rem;
+        height: 1.9375rem;
+        flex-shrink: 0;
     }
 }
